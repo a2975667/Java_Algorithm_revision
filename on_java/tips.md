@@ -7,7 +7,7 @@ Especially when switching around different languages...
 Array declearation:
 ```java
 int[] name = new int[]{1,2,3}
-int[] name = new int[]
+int[] name = new int[3]
 ```
 **java does not support inline init, either use a loop or a libray call**
 
