@@ -10,3 +10,11 @@ int[] name = new int[]{1,2,3}
 int[] name = new int[]
 ```
 **java does not support inline init, either use a loop or a libray call**
+
+#Basic Data Structures
+##Trees
+First we build the nodes of the tree
+```java
+public class Tree<T>{
+
+}
