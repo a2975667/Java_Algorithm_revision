@@ -8,7 +8,8 @@ int[] name = new int[3]
 ```
 *java does not support inline init, either use a loop or a libray call*
 
-**Stack**
+**Stack:**
+Push, Pop has O(1) and Search O(n)
 remember to import `import java.util.*`
 ```java
 public static void Stack(){
@@ -17,6 +18,9 @@ public static void Stack(){
   st.pop();
   st.peek();
   st.search('a'); //return the index of stack
-  st.isEmpty();//
+  st.isEmpty();
 }
 ```
+
+**Queue:**
+
