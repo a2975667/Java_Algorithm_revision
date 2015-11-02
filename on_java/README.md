@@ -26,3 +26,16 @@ public static void Stack(){
 
 **Queue:**
 
+WIth use of library, avoid using add and remove as it throws exceptions.
+Use `offer` and `poll` O(1) to complete.
+
+```java
+public static void Queue(){
+  Queue qu = new LinkedList();
+  qu.offer('a');
+  qu.offer('b');
+  qu.poll();
+  qu.isEmpty();
+}
+```
+
