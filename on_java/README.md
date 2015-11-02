@@ -8,7 +8,7 @@ int[] name = new int[3]
 ```
 *java does not support inline init, either use a loop or a libray call*
 
-**Stack:**
+**Stack:**\n
 Push, Pop has O(1) and Search O(n)
 remember to import `import java.util.*`
 ```java
