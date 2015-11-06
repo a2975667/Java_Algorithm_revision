@@ -17,4 +17,8 @@ public class Node {
         return name;
     }
 
+    public int printInt(){
+        return index;
+    }
+
 }

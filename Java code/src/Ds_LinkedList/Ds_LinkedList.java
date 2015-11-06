@@ -12,11 +12,20 @@ public class Ds_LinkedList {
         Node a = new Node(b, "Apple", null);
         System.out.println(a);
 
-        List apple = new LinkedList();
-        apple.add(1, a);
+        List <Node> apple = new LinkedList<Node>();
+
+        Node tmp = new Node(123, "apl", null);
 
         for (int k = 0; k < 10; k++){
-            apple.add(new Node(k, "apl", ))
+            int ll = k*55;
+            Node ne = new Node(ll, Integer.toString(ll) , tmp);
+            apple.add(ne);
+            apple.get(k+1);
+            apple.add(k, ne);
+            tmp = ne;
         }
+
+
+        System.out.println(apple.get(3).next.toString());
     }
 }
